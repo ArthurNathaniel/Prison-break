@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Favorite Movie</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-secondary   height-nav " data-bs-theme="light">
+    <div class="container-fluid" style="padding: 0 10%;">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/Prison_Break_logo.svg.png" alt="" style="height:75px">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse links-own" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About Me</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Actors
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="scofield.html">Michael Scofield</a></li>
+              <li><a class="dropdown-item" href="burrows.html">Lincoln Burrows</a></li>
+              <li><a class="dropdown-item" href="fernando.html">Fernando Sucre</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="images/dae33c21-dbac-4522-a269-40f7672c9e9f.jfif" alt="">
+      </div>
+
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <section>
+    <div class="about">
+      <div class="about-text mid">
+        <h1>About Us</h1>
+        <p>
+          "Prison Break" is a popular American television series that was first aired on the Fox network from 2005 to
+          2009, with a limited event series that aired in 2017. The series was created by Paul Scheuring and stars
+          Wentworth Miller, Dominic Purcell, Amaury Nolasco, Robert Knepper, and Sarah Wayne Callies.
+          <br>
+          The show revolves around two brothers, one of whom has been sentenced to death for a crime he did not commit.
+          The other brother, a structural engineer, devises a plan to break his sibling out of prison and clear his
+          name. The show follows their journey as they navigate through the prison system and try to stay ahead of the
+          authorities while uncovering a larger conspiracy.
+          <br>
+          "Prison Break" was well-received by audiences and critics, with its fast-paced action, compelling characters,
+          and intriguing plot twists. The show has become a cult classic and has inspired a large and dedicated fan
+          base.
+        </p>
+      </div>
+      <div class="about-image">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="images/mike-1.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="images/fernando.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+              <img src="images/burrows.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <section>
+    <div class="actors">
+      <div class="card-group">
+        <div class="card">
+          <img src="images/mike-1.jpg" class="card-img-top" alt="..." style="width: 100%;">
+          <div class="card-body">
+            <h5 class="card-title">Michael Scofield</h5>
+            <p class="card-text">
+              Michael Scofield, portrayed by Wentworth Miller, is the main protagonist in the television series "Prison
+              Break". Michael is a structural engineer who is desperate to save his wrongly accused brother, Lincoln
+              Burrows, from death row.
+            </p>
+            <button type="button" class="btn btn-primary"><a href="scofield.html"
+                style="color:#fff; text-decoration: none;">Michael Scofield</a></button>
+
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/burrows.jpg" class="card-img-top" alt="..." style="width: 100%;">
+          <div class="card-body">
+            <h5 class="card-title">Lincoln Burrows</h5>
+            <p class="card-text">Lincoln Burrows, portrayed by Dominic Purcell, is a central character in the television
+              series "Prison Break". He is the older brother of Michael Scofield and is on death row for a crime he did
+              not commit.</p>
+            <button type="button" class="btn btn-primary"><a href="burrows.html"
+                style="color:#fff; text-decoration: none;">Lincoln Burrows</a></button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/fernando.jpg" class="card-img-top" alt="..." style="width: 100%;">
+          <div class="card-body">
+            <h5 class="card-title">Fernando Sucre</h5>
+            <p class="card-text">Fernando Sucre, portrayed by Amaury Nolasco, is a character in the television series
+              "Prison Break". Sucre is a former cellmate of Michael Scofield and Lincoln Burrows, and is depicted as a
+              street-smart, impulsive, and somewhat unpredictable individual.</p>
+              <button type="button" class="btn btn-primary"><a href="fernando.html"
+                style="color:#fff; text-decoration: none;">Fernando Sucre</a></button>          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <footer>
+  <div class="footer-image">
+    <img src="images/Prison_Break_logo.svg.png" alt="">
+  </div>
+  <div class="footer-detail">
+    <h1>Kumasi Technical University</h1>
+    <h2>Computer Science</h2>
+    <h3>B'Tech Computer Technology</h3>
+    <p>Zinentah Bayor Jeshurun
+    </p>
+  </div>
+ </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      // direction: "vertical",
+      autoplay: true,
+      speed: 1500,
+      rewind: true,
+      effect: "coverflow",
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
